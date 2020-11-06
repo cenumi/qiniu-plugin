@@ -60,10 +60,10 @@ public class QiniuArtifactManager extends ArtifactManager {
         if (!n.isEmpty() && !n.endsWith(File.separator)) {
             n += File.separator;
         }
-        n += run.getParent().getFullName();
-        n += File.separator;
-        n += run.getId();
-        n += File.separator;
+        // n += run.getParent().getFullName();
+        // n += File.separator;
+        // n += run.getId();
+        // n += File.separator;
         return n;
     }
 
